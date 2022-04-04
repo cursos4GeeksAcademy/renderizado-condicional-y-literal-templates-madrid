@@ -12,7 +12,7 @@ window.onload = function() {
   // let flor = { nombre: "gerbera", color: "rojo", detalle: [1, 2, 3, 4] };
   // let p = document.createElement("p");
   // p.innerHTML = `la flor se llama ${flor.nombre}, su color es ${flor.color} ${flor.detalle}`;
-  document.body.appendChild(p);
+  //document.body.appendChild(p);
   button.addEventListener("click", function() {
     let edad = document.querySelector("input").value;
     if (edad >= 18) {
